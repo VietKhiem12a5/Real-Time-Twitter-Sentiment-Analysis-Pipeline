@@ -184,15 +184,4 @@ Run unit tests (to be implemented):
 pytest tests/
 ```
 
-## File Descriptions
-
-| File | Purpose |
-|------|---------|
-| `docker-compose.yml` | Container orchestration for Kafka & Zookeeper |
-| `requirements.txt` | Python package dependencies |
-| `train_models.py` | Train and save ML models to pickle files |
-| `producer.py` | Read CSV and stream messages to Kafka |
-| `consumer.py` | Consume Kafka messages, apply ML model, save to DB |
-| `api.py` | FastAPI server with sentiment statistics endpoints |
-
 
