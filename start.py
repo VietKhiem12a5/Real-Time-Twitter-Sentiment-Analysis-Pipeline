@@ -9,8 +9,6 @@ This script provides an interactive menu to start different components of the pi
 - Consumer
 - API Server
 
-Author: Data Engineering Team
-Date: 2024
 """
 
 import os
