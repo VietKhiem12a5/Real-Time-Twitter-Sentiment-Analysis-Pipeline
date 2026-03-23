@@ -4,8 +4,6 @@ API Module: FastAPI serving layer for sentiment analysis results.
 This module provides REST endpoints for querying sentiment statistics
 from the SQLite database populated by the consumer.
 
-Author: Data Engineering Team
-Date: 2024
 """
 
 import logging
