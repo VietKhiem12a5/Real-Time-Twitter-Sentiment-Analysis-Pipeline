@@ -5,8 +5,6 @@ This module consumes messages from the 'twitter_stream' Kafka topic,
 applies a pre-trained sentiment classification model, and stores
 results in a SQLite database.
 
-Author: Data Engineering Team
-Date: 2024
 """
 
 import json
