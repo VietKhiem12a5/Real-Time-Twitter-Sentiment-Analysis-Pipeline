@@ -2,39 +2,6 @@
 
 A production-grade, scalable streaming data pipeline for real-time sentiment analysis using Apache Kafka, machine learning, and FastAPI.
 
-## Architecture Overview
-
-```
-┌─────────────────┐
-│  sentiment140   │
-│   CSV Dataset   │
-└────────┬────────┘
-         │
-         ▼
-┌─────────────────┐       ┌────────────────┐
-│   Producer      │──────▶│  Kafka Topic   │
-│  (CSV Stream)   │       │ twitter_stream │
-└─────────────────┘       └────────┬───────┘
-                                  │
-                                  ▼
-                         ┌─────────────────┐
-                         │  Consumer       │
-                         │  (ML Processor) │
-                         └────────┬────────┘
-                                  │
-                                  ▼
-                         ┌──────────────────┐
-                         │  SQLite Database │
-                         │ sentiment_db.db  │
-                         └──────────────────┘
-                                  │
-                                  ▼
-                         ┌──────────────────┐
-                         │  FastAPI Server  │
-                         │  (REST API)      │
-                         └──────────────────┘
-```
-
 ## Technology Stack
 
 - **Messaging**: Apache Kafka (Confluent images)
