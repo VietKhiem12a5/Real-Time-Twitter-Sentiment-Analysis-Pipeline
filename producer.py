@@ -5,8 +5,6 @@ This module reads a sentiment dataset from a CSV file and streams
 each record as a JSON message to the 'twitter_stream' Kafka topic.
 Includes delivery report callbacks for monitoring message delivery status.
 
-Author: Data Engineering Team
-Date: 2024
 """
 
 import json
