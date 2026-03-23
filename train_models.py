@@ -4,8 +4,6 @@ Model Training Module: Generate pre-trained ML artifacts for sentiment analysis.
 This script reads the sentiment140 CSV file, trains a TF-IDF vectorizer and
 logistic regression model, and saves them as pickle files for use by the consumer.
 
-Author: Data Engineering Team
-Date: 2024
 """
 
 import logging
